@@ -9,9 +9,8 @@ export const SITE = {
     "Apex Protection Services provides licensed security guards, mobile patrols and fire watch for construction sites, condos, businesses and events across Toronto and the GTA.",
   // TODO: set NEXT_PUBLIC_SITE_URL in production, or change this to the real domain.
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.apexprotectionservices.ca",
-  // TODO: replace with the real phone number (555-01xx numbers are reserved for fiction).
-  phone: "(416) 555-0142",
-  phoneHref: "tel:+14165550142",
+  phone: "(647) 405-8921",
+  phoneHref: "tel:+16474058921",
   // TODO: replace with the real inbox.
   email: "info@apexprotectionservices.ca",
   city: "Toronto",
