@@ -12,6 +12,10 @@ build/
 .env
 .env*.local
 
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
 # logs
 *.log
 npm-debug.log*
