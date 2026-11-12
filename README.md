@@ -15,7 +15,7 @@ npm run dev        # http://localhost:3000
 
 ## Deployment
 
-The site is hosted on GitHub Pages. Every push to `main` runs `.github/workflows/deploy.yml`, which builds the static site and publishes it. The workflow sets the base path and site URL from the Pages settings, so it works both at `https://ismail-bashir.github.io/apexprotectionservices/` and on a custom domain added later in **Settings → Pages**.
+The site is hosted on GitHub Pages at `https://apexprotectionservices.ca` (set under **Settings → Pages → Custom domain**; `www` redirects to it). Every push to `main` runs `.github/workflows/deploy.yml`, which builds the static site and publishes it. The workflow reads the base path and site URL from the Pages settings, so changing the domain there needs only a re-run of the workflow.
 
 ## Before launch
 
